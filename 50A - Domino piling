@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int M, N;
+    cin>>M>>N;
+    if(M>=1 && M<=16 && N>=1 && N<=16){
+      cout<<((M*N)/2);
+    }
+    return 0;
+}
