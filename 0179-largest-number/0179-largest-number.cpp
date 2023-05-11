@@ -23,15 +23,3 @@ public:
         return ans.substr(start);
     }
 };
-
-
-        // string number;
-        // for(int i=0; i<nums.size(); i++){
-        //     largestNum[i].push_back(nums[i]);
-        // }
-        // sort(largestNum);
-        // for(int i=0; i<nums.size(); i++){
-        //    number = number + largestNum[i];
-        // }
-        // number= std::to_string(largestNum);
-        // return number;
